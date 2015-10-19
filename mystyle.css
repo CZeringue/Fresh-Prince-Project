@@ -1,0 +1,41 @@
+body {
+	font-family: 'Cardo', serif;
+	background-color: #2A2C39;
+	text-align: center;
+	font-size: 62.5%;
+	max-width: 70em;
+	margin: auto auto;
+}
+
+h1,p,li {
+	color: white;
+}
+h1 {
+  font-size: 5em;
+  text-decoration: underline;
+}
+
+p,ul,a {
+	font-size: 2em;
+}
+
+ul {
+	list-style: none;
+	padding-top: 5em;
+}
+
+li,a {
+	padding: 0.05em;
+	text-decoration: none;
+}
+a {
+	-webkit-transition: color 0.5s ease; /* Safari */
+    transition:  color 0.5s ease;
+	color:white;
+	text-align: center;
+}
+
+a:hover {
+	color: red;
+}
+
